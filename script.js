@@ -60,6 +60,6 @@ function openUrlsInBatch(urls, linksDiv) {
             } else {
                 console.error(`Failed to open URL ${url}`);
             }
-        }, index * 200); // Delay of 200ms between each URL
+        }, index * 500); // Delay of 500ms between each URL
     });
 }
